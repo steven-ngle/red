@@ -1,0 +1,15 @@
+[project]
+name = "red"
+version = "0.1.0"
+description = "Research Agent Demo: LangGraph + DeepSeek + Tavily + Mem0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.2.9",
+    "mem0ai[vector-stores]>=2.0.0",
+    "openai>=2.46.0",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+    "sentence-transformers>=5.6.0",
+    "tavily-python>=0.7.26",
+]
